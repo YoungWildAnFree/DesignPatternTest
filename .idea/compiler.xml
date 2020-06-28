@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DesignPatternTest" />
+        <module name="ChainOfResponsibility" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ChainOfResponsibility" target="1.8" />
       <module name="DesignPatternTest" target="1.8" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
