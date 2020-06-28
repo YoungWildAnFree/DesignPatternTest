@@ -2,6 +2,15 @@ package eg1;
 
 import java.math.BigDecimal;
 
+
+/**
+ *在实际场景中，财务审批就是一个责任链模式。假设某个员工需要报销一笔费用
+ * Manager：只能审核1000元以下的报销；
+ * Director：只能审核10000元以下的报销；
+ * CEO：可以审核任意额度。
+ *
+ * 用责任链模式设计此报销流程时，每个审核者只关心自己责任范围内的请求，并且处理它。对于超出自己责任范围的，扔给下一个审核者处理，这样，将来继续添加审核者的时候，不用改动现有逻辑。
+ * */
 public class eg1Main {
 
     public static void main(String[] args) {
