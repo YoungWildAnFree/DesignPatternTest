@@ -8,7 +8,6 @@ public class eg1Main {
         Director director = new Director(builderImplP);
         director.builder();
 
-        
 
         IBuilder builderImplS = new BuilderImplS(house);
         Director director1 = new Director(builderImplS);
