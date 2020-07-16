@@ -15,6 +15,7 @@
         <module>ChainOfResponsibility</module>
         <module>FactoryMethod</module>
         <module>Builder</module>
+        <module>Command</module>
     </modules>
 
 
