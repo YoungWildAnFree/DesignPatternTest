@@ -10,6 +10,7 @@
         <module name="ChainOfResponsibility" />
         <module name="Command" />
         <module name="FactoryMethod" />
+        <module name="Iterator" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="Command" target="1.8" />
       <module name="DesignPatternTest" target="1.8" />
       <module name="FactoryMethod" target="1.8" />
+      <module name="Iterator" target="1.8" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>

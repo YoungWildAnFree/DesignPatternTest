@@ -16,6 +16,7 @@
         <module>FactoryMethod</module>
         <module>Builder</module>
         <module>Command</module>
+        <module>Iterator</module>
     </modules>
 
 
